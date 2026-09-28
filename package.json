@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/edgetime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Edge encode/decode helpers for time payloads in pipelines.",
+  "bin": {
+    "edgetime": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/edgetime.git"
+  },
+  "homepage": "https://theworker02.github.io/edgetime/",
+  "keywords": [
+    "edge",
+    "time",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
